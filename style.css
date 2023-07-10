@@ -268,6 +268,103 @@ h4 {
 /* footer start here */
 .footer-section {
   width: 100%;
-  height: 50vh;
+  height: 35vh;
   background-color: black;
+}
+
+
+
+
+
+.footer-section{
+  display: flex;
+  height: 40vh;
+  align-items: center;
+  justify-content: space-around;
+
+  
+  
+
+
+}
+
+.footer-section p{
+  color: white;
+  width: 50%;
+  padding-top: 20px;
+  
+}
+.footer-description{
+    font-size: 13px;
+}
+.social-link{
+  padding-left: 35px;
+  padding-top: 10px;
+  
+  
+}
+.use-full-link h3{
+   margin-top: -80px;
+      
+}
+
+.use-full-link li{
+  
+  list-style: none;
+  padding-top: 10px;
+}
+
+.use-full-link li:hover{
+   background-color: rgb(21, 85, 158);
+   cursor: pointer;
+}
+.supports h3{
+   margin-top: -40px;
+   padding-left: 40px;
+   padding-bottom: 10px;
+}
+
+
+
+.supports li{
+  list-style: none;
+  padding-left: 40px;
+  padding-bottom: 10px;
+}
+.contact-info p{
+      font-size: 15px;
+      padding-top: 7px;
+      padding-left: 20px;
+}
+
+.contact-info h3{
+  margin-top: -25px;
+  padding-left: 70px;
+}
+
+.contact-info p:hover{
+  background-color: blue;
+  cursor: pointer;
+}
+.supports li:hover{
+  background-color: cyan;
+  cursor: pointer;
+}
+
+.hr{
+  color: rgb(238, 232, 234);
+
+  
+  width: 100%;
+  
+  
+  background-color: black;
+  
+}
+
+.hr p{
+  font-size: 17px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(255, 237, 237);
 }
